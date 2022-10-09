@@ -4,7 +4,7 @@ using Autodesk.AutoCAD.DatabaseServices;
 using Application = Autodesk.AutoCAD.ApplicationServices.Core.Application;
 using DocumentLock = Autodesk.AutoCAD.ApplicationServices.DocumentLock;
 
-namespace AverageCogo;
+namespace TransactAndForgetNs;
 
 public sealed class TransactAndForget : IDisposable
 {
