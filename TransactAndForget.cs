@@ -4,8 +4,6 @@ using Autodesk.AutoCAD.DatabaseServices;
 using Application = Autodesk.AutoCAD.ApplicationServices.Core.Application;
 using DocumentLock = Autodesk.AutoCAD.ApplicationServices.DocumentLock;
 
-namespace TransactAndForgetNs;
-
 public sealed class TransactAndForget : IDisposable
 {
     private readonly Transaction _transaction;
